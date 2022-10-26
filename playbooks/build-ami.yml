@@ -1,0 +1,9 @@
+---
+
+- name: Build AMI
+  hosts: local
+  connection: local
+  gather_facts: False
+
+  roles:
+    - build-vyos-ami

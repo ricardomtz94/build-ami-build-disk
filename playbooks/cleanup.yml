@@ -1,0 +1,8 @@
+---
+
+- name: Cleanup
+  hosts: local
+  connection: local
+  gather_facts: False
+  roles:
+    - ec2-cleanup

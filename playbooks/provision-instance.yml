@@ -1,0 +1,8 @@
+---
+- name: Provision instance
+  hosts: local
+  connection: local
+  gather_facts: True
+
+  roles:
+    - provision-ec2-instance
