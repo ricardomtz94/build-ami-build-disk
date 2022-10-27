@@ -3,7 +3,6 @@
   pip:
     state: present
     name:
-     - boto3
      - boto
   become: yes
   tags:
