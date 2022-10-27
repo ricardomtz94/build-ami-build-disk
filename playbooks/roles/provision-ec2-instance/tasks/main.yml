@@ -4,6 +4,7 @@
     state: present
     name:
      - boto
+     - boto3
   become: yes
   tags:
     - prerequisites
