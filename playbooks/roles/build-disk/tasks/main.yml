@@ -25,6 +25,7 @@
       - parted
       - e2fsprogs
       - gnupg
+      - debian-archive-keyring
     state: present
 
 - name: Load aufs module
