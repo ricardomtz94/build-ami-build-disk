@@ -1,2 +1,2 @@
-deb http://deb.debian.org/debian/ jessie main non-free contrib
-deb-src http://deb.debian.org/debian/ jessie main non-free contrib
+deb http://deb.debian.org/debian/dists jessie main non-free contrib
+deb-src http://deb.debian.org/debian/dists jessie main non-free contrib
