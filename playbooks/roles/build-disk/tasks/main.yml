@@ -19,7 +19,7 @@
     force: yes
 
 - name: Install required packages
-  yum:
+  apt:
     update_cache: yes
     name:
       - parted
